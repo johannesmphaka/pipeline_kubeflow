@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/kuboflow/kuboflow', '.']
+  args: ['build', '-t', 'gcr.io/dbt-demos-370908/pipeline_kubeflow', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/kuboflow/kuboflow']
+  args: ['push', 'gcr.io/dbt-demos-370908/pipeline_kubeflow']
